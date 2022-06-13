@@ -8,4 +8,4 @@ class Book(models.Model):
     rating = models.IntegerField()
 
     def __str__(self):
-        return f'{self.title} {self.rating}'
+        return f'Название: {self.title} | Рейтинг: {self.rating} %'
